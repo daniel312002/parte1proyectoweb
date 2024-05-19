@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Agregamos esta línea para centrar el logo */
+    height: 100vh;
+    background-color: #21306b;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px; /* Añadimos un margen inferior al título */
+}
+
+main {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Ajustamos la dirección de los elementos internos */
+    align-items: center; /* Centramos los elementos horizontalmente */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Establecemos un ancho fijo para el formulario */
+}
+
+label {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Establecemos un ancho del 100% para que ocupe todo el contenedor */
+    box-sizing: border-box; /* Incluimos el padding y el borde en el ancho total */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Agregamos estilos para el logo */
+#logo {
+    margin-top: 20px;
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario - ULEAM</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+            </ul>
+        </nav>
+        <h1>Perfil de Usuario</h1>
+        <!-- Botón de actualizar información -->
+        <button id="updateButton">Actualizar información</button>
+    </header>
+    <main>
+        <section id="personalInfoSection">
+            <h2>Información Personal</h2>
+            <div id="personalInfo">
+                <!-- Contenido de la información personal -->
+                <p>Nombre: <span id="nombre" contenteditable="true">John Doe</span></p>
+                <p>Edad: <span id="edad" contenteditable="true">30</span></p>
+                <!-- Botón para editar y guardar la información -->
+                <button class="editButton" data-section="personalInfo">Guardar</button>
+            </div>
+        </section>
+        
+        <section id="academicHistorySection">
+            <h2>Historial Académico</h2>
+            <div id="academicHistory">
+                <!-- Contenido del historial académico -->
+                <p>Grado: <span id="grado">Licenciatura</span></p>
+                <p>Carrera: <span id="carrera">Ingeniería</span></p>
+                <!-- Botón para editar el historial académico -->
+                <button class="editButton" data-section="academicHistory">Editar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Aquí podrías incluir enlaces útiles o información de contacto -->
+    </footer>
+    <script src="metododeguardado.js"></script>
+</body>
+</html>
+

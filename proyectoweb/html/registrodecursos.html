@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Cursos</title>
+    <link rel="stylesheet" href="css/regis.css">
+</head>
+<body>
+    <header>
+        <h1>Registro de Cursos</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="buscarCursosSection">
+            <h2>Buscar Cursos</h2>
+            <form id="buscarCursosForm">
+                <input type="text" id="terminoBusqueda" placeholder="Ingrese el término de búsqueda">
+                <button type="submit">Buscar</button>
+            </form>
+            <ul id="resultadosBusquedaList" style="display: none;"></ul> <!-- Lista para mostrar los resultados de la búsqueda -->
+        </section>
+        <section id="cursosSeleccionadosSection" style="display: none;">
+            <h2>Cursos Seleccionados</h2>
+            <ul id="cursosSeleccionadosList"></ul> <!-- Lista para mostrar los cursos seleccionados -->
+            <h2>Resultados de la Búsqueda</h2>
+            <ul id="resultadosBusquedaList"></ul>
+        </section>
+        
+    </main>
+    <footer>
+        <!-- Aquí podrías incluir enlaces útiles o información de contacto -->
+    </footer>
+    <script src="js/reistrocursos.js"></script>
+</body>
+</html>

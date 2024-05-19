@@ -1,0 +1,62 @@
+
+/* Estilos CSS para el cuerpo y el formulario */
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    background-image: url('uleamimg/uleam.png'); /* Imagen de fondo */
+    background-size: cover; /* Cubre todo el área */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    height: 100vh; /* Altura del cuerpo al 100% del viewport */
+    margin: 0; /* Elimina el margen por defecto */
+    display: flex; /* Usa flexbox para alinear el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+form {
+    max-width: 300px; /* Anchura máxima del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+}
+/* Estilos para los campos de entrada y el botón */
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%; /* Anchura al 100% del contenedor */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Margen inferior */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde del campo */
+    box-sizing: border-box; /* Incluye el borde en el tamaño total */
+}
+input[type="submit"] {
+    background-color: #003af7; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+input[type="submit"]:hover {
+    background-color: #4645a0; /* Cambia el color de fondo al pasar por encima */
+}
+.btn-register {
+    display: block; /* Muestra el enlace como bloque */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Sin subrayado */
+    color: #333; /* Color del texto */
+    margin-top: 10px; /* Margen superior */
+    /* Estilo adicional para resaltar el enlace */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 1.1em; /* Tamaño de fuente */
+}
+/* Cambiar color de enlace al pasar el ratón */
+.btn-register:hover {
+    color: #000000; /* Color negro */
+}
+/* Estilos para el mensaje de error */
+#errorMessage {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
